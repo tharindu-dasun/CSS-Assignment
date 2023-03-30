@@ -58,26 +58,62 @@
             margin-top: 40px;
         }
 
+        main>nav>ul>li:hover{
+            cursor: pointer;
+            color: blue;
+        }
+
         main>nav>ul>li{
             padding-bottom: 20px;
         }
 
+        /*images 3 */
+
+        main>section>section{
+            position: relative;
+            height: 350px;
+        }
+
+        main>section>section>div{
+            position: absolute;
+            height: 100%;
+            width: calc(100%/3);
+        }
+
+        main>section>section>div:nth-child(1){
+            left: 0;
+            background-image: url("assest/images/css.png");
+        }
+
+        main>section>section>div:nth-child(2){
+            left:  calc(100%/3);
+            background-image: url("assest/images/css.png");
+        }
+
+        main>section>section>div:nth-child(3){
+            right: 0;
+            background-image: url("assest/images/css.png");
+        }
+
+        /* Footer */
         footer{
             border: 1px solid grey;
             background-color: grey;
         }
 
         footer>p{
+            text-align: center;
             font-size: 20px;
             font-weight: bold;
             right: 110px;
             bottom: 0;
+            color: white;
         }
     </style>
 </head>
 <body>
 <header>
-    <img src="assest/ijse.jpg" alt="IJSE">
+    <img src="assest/images/ijse.jpg" alt="IJSE">
     <ul>
         <li>Home</li>
         <li>Service</li>
@@ -98,9 +134,10 @@
 
     <section>
         <section>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>A</div>
+            <div>B</div>
+            <div>C</div>
+        </section>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque cum dolorum earum et expedita id
                 laborum, minima neque quos. Ab alias animi, doloremque nesciunt omnis quas qui reiciendis sed.</p>
@@ -136,7 +173,40 @@
             <p>Aperiam commodi, necessitatibus. Accusantium distinctio libero saepe. Molestiae, odit perferendis quas
                 quis sunt voluptates! At consectetur cupiditate dignissimos dolore, dolores eius esse excepturi
                 inventore magnam magni, maiores perferendis possimus quasi.</p>
-        </section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque cum dolorum earum et expedita id
+                laborum, minima neque quos. Ab alias animi, doloremque nesciunt omnis quas qui reiciendis sed.</p>
+            <p>Aliquid at consequatur debitis dolor explicabo quas, recusandae repudiandae voluptate? Harum, ipsa,
+                officiis! Accusamus aperiam asperiores, assumenda blanditiis exercitationem fuga impedit ipsum, magni
+                mollitia nisi porro quasi quo sit veritatis.</p>
+            <p>Eos eum, expedita ipsam ipsum itaque nisi possimus vel. Accusamus aliquam asperiores consequuntur dolorem
+                dolorum eligendi facilis inventore minus officia quae reiciendis, repudiandae rerum sequi similique
+                tempora unde veniam voluptates?</p>
+            <p>Adipisci, atque beatae consectetur consequuntur, cupiditate dolor dolore error facere ipsum iste
+                laboriosam magni maxime molestiae molestias natus nemo nisi officiis placeat quas quisquam quos
+                reiciendis repudiandae rerum temporibus velit.</p>
+            <p>Accusantium at cum delectus dolor doloremque labore mollitia nemo non optio perferendis, quis, quisquam
+                reiciendis ut vitae voluptate voluptatem voluptatum! Eveniet expedita, fugit laborum nostrum optio
+                praesentium quis quos repellat!</p>
+            <p>Quaerat quam, quod? Aspernatur cum ducimus illum, ipsa nemo non. Consequuntur, dignissimos eaque error
+                expedita, fugiat harum, labore laborum libero maiores nesciunt quidem quo sequi similique suscipit
+                temporibus unde vel.</p>
+            <p>Ab adipisci, aliquam animi aspernatur atque cupiditate dolorem fugit harum, incidunt maxime mollitia
+                natus non nostrum numquam sapiente sequi sint soluta tenetur totam vero? Deserunt dolorum ea fugit minus
+                pariatur?</p>
+            <p>Ad alias architecto asperiores blanditiis cum et eum ex expedita fuga id, illum incidunt minus nihil nisi
+                nobis odit omnis placeat possimus praesentium quibusdam quidem quod saepe sequi unde voluptas?</p>
+            <p>A cumque cupiditate debitis deleniti dolore ipsum itaque laborum, magnam neque nobis quidem ratione sed
+                voluptate. A alias distinctio laborum mollitia quos sed, sint suscipit. At eveniet iure minima
+                velit!</p>
+            <p>Accusantium adipisci alias atque, consequuntur culpa delectus doloremque dolores doloribus ex id ipsam
+                itaque laudantium, nisi nobis obcaecati quam quas qui quisquam sed sequi tempora tempore ut vel velit
+                voluptatibus.</p>
+            <p>Alias asperiores consequatur dolores ducimus fugit harum illum impedit, in ipsam molestiae numquam omnis
+                optio pariatur, placeat quo quod reiciendis saepe sint suscipit temporibus tenetur, ut vel voluptate.
+                Distinctio, similique.</p>
+            <p>Aperiam commodi, necessitatibus. Accusantium distinctio libero saepe. Molestiae, odit perferendis quas
+                quis sunt voluptates! At consectetur cupiditate dignissimos dolore, dolores eius esse excepturi
+                inventore magnam magni, maiores perferendis possimus quasi.</p>
 
     </section>
 </main>
