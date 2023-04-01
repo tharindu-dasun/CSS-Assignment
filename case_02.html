@@ -3,7 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS Assignment 02</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assest/fonts/css/all.min.css">
+
     <style>
+
+        *{
+            font-family: 'Alkatra', cursive;;
+        }
         header{
             /*border: 1px solid purple;*/
             position: relative;
@@ -109,26 +118,34 @@
             bottom: 0;
             color: white;
         }
+
+        header>ul>li>i{
+            padding: 10px;
+        }
+
+        main>nav>ul>li>i{
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
 <header>
     <img src="assest/images/ijse.jpg" alt="IJSE">
     <ul>
-        <li>Home</li>
-        <li>Service</li>
-        <li>Contacts</li>
-        <li>About Us</li>
+        <li><i class="fa-solid fa-house"></i>Home</li>
+        <li><i class="fa-solid fa-bell-concierge"></i>Service</li>
+        <li><i class="fa-solid fa-phone-volume"></i>Contacts</li>
+        <li><i class="fa-solid fa-address-card"></i>About Us</li>
     </ul>
 </header>
 
 <main>
     <nav>
         <ul>
-            <li>Home</li>
-            <li>Service</li>
-            <li>Contacts</li>
-            <li>About Us</li>
+            <li><i class="fa-solid fa-house"></i>Home</li>
+            <li><i class="fa-solid fa-bell-concierge"></i>Service</li>
+            <li><i class="fa-solid fa-phone-volume"></i>Contacts</li>
+            <li><i class="fa-solid fa-address-card"></i>About Us</li>
         </ul>
     </nav>
 
